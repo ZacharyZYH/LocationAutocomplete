@@ -5,8 +5,8 @@
 * Flask version 1.1.1
 
 ## Initialization
-1. modify config/database.json
-2. ```python init.py```
+1. modify config/config.json
+2. ```python run.py```
 
 ## Features
 Specification
