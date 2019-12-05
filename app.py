@@ -43,7 +43,7 @@ def internal_error(e):
 def get_modification(modify_request):
     try:
         json = modify_request.json
-        location, key = json['location'], json['key']
+        key, location = json['key'], json['location']
         if key not in keys:
             abort(401)
         return location
