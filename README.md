@@ -23,3 +23,8 @@ Specification
 I decided to not store the locations in Database nor filesystem, because there is "Runtime Efficiency" in the criteria
  but not "data persistence", so I assumed that it doesn't matter that the data will be gone if system restarts and the 
  performance is more important.
+
+## Sample request
+post /add/ {"location": "beiiiii", "key":"123456"}
+post /delete/ {"location": "beiiiii", "key":"123456"}
+get /query/?term=bei
