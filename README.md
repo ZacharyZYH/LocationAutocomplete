@@ -6,8 +6,13 @@
 * Flask version 1.1.1
 
 ## Initialization
+### By script (not recommended)
 1. modify config/config.json
 2. ```python run.py```
+
+### By Docker (recommended)
+1. ```docker build -t location-autocomplete .```
+2. ```docker run -p YourPort:5000 location-autocomplete```
 
 ## Features
 Specification
