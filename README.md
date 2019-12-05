@@ -1,7 +1,7 @@
 # Backend RESTful APIs for Location Autocomplete
 
 ## Development environment
-python 3.6
+* python 3.6
 * Flask version 1.1.1
 
 ## Initialization
