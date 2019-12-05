@@ -2,6 +2,7 @@
 
 ## Development environment
 * python 3.6
+* pip3
 * Flask version 1.1.1
 
 ## Initialization
