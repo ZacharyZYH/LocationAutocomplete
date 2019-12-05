@@ -25,6 +25,6 @@ I decided to not store the locations in Database nor filesystem, because there i
  performance is more important.
 
 ## Sample request
-post /add/ {"location": "beiiiii", "key":"123456"}
-post /delete/ {"location": "beiiiii", "key":"123456"}
-get /query/?term=bei
+* post /add/ {"location": "beiiiii", "key":"123456"}
+* post /delete/ {"location": "beiiiii", "key":"123456"}
+* get /query/?term=bei
