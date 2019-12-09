@@ -1,4 +1,4 @@
-# Backend RESTful APIs for Location Autocomplete
+# Backend APIs for Location Autocomplete
 
 ## Development environment
 * python 3.6
